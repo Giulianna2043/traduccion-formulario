@@ -1,6 +1,18 @@
-    var Ingresa= document.getElementById("form-signin-heading");
-	Ingresa.innerHTML="Ingresa tus datos";
-	var recordar = document.getElementsByTagName("span");	
-	recordar.innerHTML="Recordar";
-	var enterMail=document.getElementById("inputEmail").placeholder="Ingresa tu correo";
-	var enterPassword=document.getElementById("inputPassword")
+    document.getElementById("form-signin-heading").innerHTML="Ingresa tus datos";
+
+    document.getElementById("inputEmail").placeholder="Ingresa tu correo";
+
+    
+
+    document.getElementById("inputPassword").placeholder="Ingrese su contraseña";
+
+	document.querySelector("span").innerHTML="Recordar contraseña";	
+
+    document.querySelector("button").innerHTML="Iniciar sesion";	
+
+
+	
+
+    
+
+	
